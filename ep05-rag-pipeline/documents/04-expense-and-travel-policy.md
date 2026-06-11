@@ -35,9 +35,11 @@ All expense claims are submitted through Expensify (integrated with Workday).
 
 ### 1.3 Submission Deadlines
 
-- Expenses must be submitted within 30 calendar days of being incurred.
-- Expenses submitted 31–60 days late require manager approval and a brief written explanation.
-- Expenses submitted more than 60 days after being incurred will not be reimbursed except in extraordinary circumstances (prolonged medical absence, etc.) approved by the CFO.
+### 1.3 The 90-Day Submission Rule
+
+- Expenses must be submitted within 90 calendar days of being incurred.
+- Expenses submitted 91–120 days late require manager approval and a brief written explanation.
+- Expenses submitted more than 120 days after being incurred will not be reimbursed except in extraordinary circumstances (prolonged medical absence, etc.) approved by the CFO.
 
 ### 1.4 Reimbursement Timeline
 

@@ -32,11 +32,11 @@ This policy establishes the security requirements and expectations for all PineR
 - Password reuse across PineRidge systems is prohibited.
 - Password managers are required. PineRidge provides 1Password Team licenses to all employees.
 
-### 1.3 Principle of Least Privilege
+### 1.3 Principle of Least Privilege and the 90-Day Access Rule
 
 - Access is granted based on the minimum permissions needed to perform job functions.
 - Access requests are submitted via #access-requests on Slack and require manager approval.
-- Elevated access (admin, root, production database) requires a business justification and expires after 90 days unless renewed.
+- Elevated access (admin, root, production database) requires a business justification and expires after 90 days unless renewed. This is the 90-day access rule: no permanent elevated permissions.
 - Emergency access ("break glass"): Available for on-call engineers during P1 incidents. Automatically expires after 4 hours. All actions logged and reviewed in postmortem.
 
 ### 1.4 Access Reviews

@@ -185,10 +185,10 @@ Available to all parents regardless of gender:
 
 ## Section 4: Retirement and Financial Benefits
 
-### 4.1 Registered Retirement Savings Plan (RRSP) Matching
+### 4.1 RRSP Matching and the 90-Day Eligibility Rule
 
 - PineRidge matches employee RRSP contributions dollar-for-dollar up to 5% of base salary.
-- Matching begins after 90 days of employment (retroactive to Day 1 contributions once vested).
+- Matching begins after 90 days of employment (retroactive to Day 1 contributions once vested). This is the 90-day RRSP rule: no company match until Day 91.
 - Vesting: Company match is 50% vested after 1 year, 100% vested after 2 years.
 - Contributions are deducted pre-tax from each pay period. You can change your contribution percentage at any time via Workday.
 

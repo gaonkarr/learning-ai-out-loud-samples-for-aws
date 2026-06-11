@@ -12,13 +12,18 @@ Code samples from the [Learning AI Out Loud](https://youtube.com/@LearningAIOutL
 
 ## Getting started
 
-Each episode folder has its own README with setup instructions. Generally:
+One venv at the repo root covers all episodes:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then run the episode:
 
 ```bash
 cd ep05-rag-pipeline/
-python3 -m venv .venv
-source .venv/bin/activate
-pip install boto3 numpy
 python3 rag_demo.py
 ```
 

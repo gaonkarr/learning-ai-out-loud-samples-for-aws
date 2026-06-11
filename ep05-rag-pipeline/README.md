@@ -11,10 +11,12 @@ A complete Retrieval-Augmented Generation pipeline in one file using Amazon Bedr
 
 ## Setup
 
+From the repo root (one level up):
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install boto3 numpy
+pip install -r requirements.txt
 ```
 
 ## Run

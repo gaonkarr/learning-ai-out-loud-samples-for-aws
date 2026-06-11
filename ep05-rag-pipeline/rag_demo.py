@@ -62,11 +62,9 @@ bedrock = boto3.client("bedrock-runtime", region_name=REGION)
 def chunk_docs(folder: str) -> list[dict]:
     """
     Read all markdown policy documents and split them into chunks.
-
     Strategy: Split on double-newlines (paragraph boundaries).
     Each chunk includes the previous paragraph for overlap/context,
     so we don't lose meaning at paragraph boundaries.
-
     Returns a list of dicts: [{"text": "...", "source": "filename.md"}, ...]
     """
     chunks = []
@@ -109,10 +107,9 @@ def embed_text(text: str) -> list[float]:
     """
     Call Amazon Titan Embeddings V2 via Bedrock to get a vector
     representation of a single piece of text.
-
     Returns a list of 1024 floats (the embedding vector).
     """
-    response = bedrock.invoke_model(
+    response = bedrock.invoke_model( 
         modelId=EMBED_MODEL,
         body=json.dumps({"inputText": text}),
     )
@@ -123,7 +120,6 @@ def embed_text(text: str) -> list[float]:
 def embed_all(chunks: list[dict]) -> np.ndarray:
     """
     Embed every chunk in our collection.
-
     This is the expensive step — one API call per chunk.
     Returns a NumPy matrix where each row is a chunk's embedding vector.
     Shape: (num_chunks, 1024)
@@ -238,7 +234,7 @@ def save_cache(chunks: list[dict], embeddings: np.ndarray):
     with open(CHUNKS_CACHE, "w") as f:
         json.dump(chunks, f)
     np.save(EMBEDDINGS_CACHE, embeddings)
-    print(f"  Cache saved to {CACHE_DIR}/\n")
+    print(f"  Cache saved.   ")
 
 
 def load_cache() -> tuple[list[dict], np.ndarray] | None:
@@ -281,9 +277,9 @@ if __name__ == "__main__":
     # --- Step 3 + 4: Ask questions and get grounded answers ---
     # These demonstrate the retrieval + generation loop
     questions = [
-        "How many vacation days do I get as a senior engineer?",  # Should find leave policy
         "What's the RRSP matching policy?",                       # Should find benefits guide
-        "What's the 90-day rule?",                                # Ambiguous — shows retrieval limits
+        # "How many vacation days do I get as a senior engineer?",  # May not have enough info
+        # "What's the 90-day rule?",                                # Ambiguous — shows retrieval limits
     ]
 
     for question in questions:
