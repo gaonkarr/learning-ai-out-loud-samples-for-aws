@@ -3,7 +3,7 @@
 Workspace for the **Learning AI Out Loud** series, a ground-up walkthrough of building with AI from first principles. Hosted by a cloud architect and AWS developer advocate returning from maternity leave, learning AI in public.
 
 - 📺 **Watch:** [@RohiniGaonkar on YouTube](https://youtube.com/@RohiniGaonkar)
-- 📝 **Read:** [dev.to/aws series](https://dev.to/aws)
+- 📝 **Read:** [dev.to/aws series](https://dev.to/rohini_gaonkar)
 
 ## Who it's for
 
@@ -12,12 +12,15 @@ Workspace for the **Learning AI Out Loud** series, a ground-up walkthrough of bu
 
 Each episode delivers the *what and why* for everyone, plus an architecture beat for builders who want the *how*.
 
-## What the series covers (ongoing)
+## What the series covered so far (ongoing)
 
-1. **AI is not magic.** Foundation models, prompts, hallucinations, model sizes, context windows.
-2. **AI with your stuff.** Grounding the model in your documents and data. RAG, embeddings, retrieval.
-3. **AI that does things.** Tool use, function calling, agents, MCP, and the harness around them.
-4. **AI you ship.** Evaluation, cost, guardrails, when not to use AI.
+| # | Title | Blog |
+|---|-------|------|
+| 1 | What Even Is AI? (I Took a Break & Had to Relearn Everything) | [Read](https://dev.to/aws/what-even-is-ai-i-took-a-break-had-to-relearn-everything-3dpj) |
+| 2 | Why does AI lie? Hallucinations explained simply | [Read](https://dev.to/aws/why-does-ai-lie-hallucinations-explained-simply-1c7g) |
+| 3 | Bigger AI models aren't always better. Here's how to actually choose. | [Read](https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc) |
+| 4 | Why does AI forget what you said (and how to fix it) | [Read](https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-52f6) |
+| 5 | How to make AI answer questions about your documents — building RAG from scratch | [Read](https://dev.to/aws/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch-4dg0) |
 
 Every episode demos something working, then shows where it breaks. No fluff, just useful.
 
@@ -43,7 +46,7 @@ Start with the per-episode README when you want to clone, run, or follow along.
 
 | Episode | Folder | What it covers |
 |---------|--------|----------------|
-| 5 | [ep05-rag-pipeline/](ep05-rag-pipeline/) | Build a RAG pipeline from scratch — chunk, embed, retrieve, generate |
+| 5 | [ep05-rag-pipeline/](ep05-rag-pipeline/) | Build a RAG pipeline from scratch: chunk, embed, retrieve, generate |
 
 ## Getting started
 
