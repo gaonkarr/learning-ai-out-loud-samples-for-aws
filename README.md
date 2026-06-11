@@ -20,7 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then run the episode:
+Then run code for each episode:
 
 ```bash
 cd ep05-rag-pipeline/
