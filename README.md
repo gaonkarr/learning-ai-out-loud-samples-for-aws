@@ -21,6 +21,7 @@ Each episode delivers the *what and why* for everyone, plus an architecture beat
 | 3 | Bigger AI models aren't always better. Here's how to actually choose. | [Read](https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc) |
 | 4 | Why does AI forget what you said (and how to fix it) | [Read](https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-52f6) |
 | 5 | How to make AI answer questions about your documents — building RAG from scratch | [Read](https://dev.to/aws/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch-4dg0) |
+| 6 | Why RAG gives wrong answers (and how to fix retrieval failures) | Coming soon |
 
 Every episode demos something working, then shows where it breaks. No fluff, just useful.
 
@@ -47,6 +48,7 @@ Start with the per-episode README when you want to clone, run, or follow along.
 | Episode | Folder | What it covers |
 |---------|--------|----------------|
 | 5 | [ep05-rag-pipeline/](ep05-rag-pipeline/) | Build a RAG pipeline from scratch: chunk, embed, retrieve, generate |
+| 6 | [ep06-rag-failures/](ep06-rag-failures/) | Break RAG two ways and fix it: heading-based chunking, metadata pre-filtering |
 
 ## Getting started
 

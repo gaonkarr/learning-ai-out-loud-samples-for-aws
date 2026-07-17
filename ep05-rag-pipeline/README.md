@@ -6,9 +6,9 @@ A working RAG pipeline in about 60 lines of Python, running on [Amazon Bedrock](
 
 This repo is the code companion for Episode 5 of *Learning AI Out Loud*. The video and blog walk through the *why* behind each step. This README covers the *how* of running it.
 
-- 🎥 **Video:** [How to make AI answer from YOUR documents](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-- 📝 **Blog:** [How to make AI answer questions about your documents — building RAG from scratch](https://dev.to/aws/YOUR_BLOG_SLUG)
-- 📺 **Series playlist:** [Learning AI Out Loud](https://youtube.com/@RohiniGaonkar)
+- 🎥 **Video:** [How to make AI answer from YOUR documents](https://www.youtube.com/watch?v=l4aA2NLmWBQ)
+- 📝 **Blog:** [How to make AI answer questions about your documents — building RAG from scratch](https://dev.to/aws/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch-4dg0)
+- 📺 **Series playlist:** [Learning AI Out Loud](https://www.youtube.com/playlist?list=PLTuh5MoXKZTwoeROV-bA4_6maw0FIoeEf )
 
 ## What this demo does
 
@@ -95,6 +95,35 @@ ep05-rag-pipeline/
     ├── chunks.json    # Chunk text + source filenames
     └── embeddings.npy # NumPy matrix of chunk vectors
 ```
+
+## Questions to try
+
+Plug these into `rag_demo.py` (or modify the script to accept them on the command line) and watch how the pipeline behaves.
+
+### Should work cleanly
+The answer lives in one chunk. Retrieval lands on it, generation is grounded.
+
+- "How many vacation days do I get as a senior engineer?"
+- "What's the RRSP matching policy?"
+- "Can I work from another country for a few weeks?"
+- "What happens if I lose my company laptop?"
+- "How much is the home office stipend for new hires?"
+- "What's the per diem for dinner while traveling?"
+- "When can I deploy to production on a Friday?"
+
+### Cross-document retrieval
+The answer is split across multiple files. Single-chunk retrieval struggles.
+
+- "What benefits start on Day 1 vs Day 31?" (handbook + benefits guide)
+- "What's the full process if I need parental leave?" (benefits guide + leave policy)
+- "What tools do I get access to and when?" (handbook + engineering onboarding)
+
+### Designed to fail
+Ambiguity in the question, or many chunks matching for different reasons. Useful for stress-testing retrieval.
+
+- "What's the return policy?" (equipment return vs expense refund vs return-to-work after leave)
+- "How long do I have to submit?" (expense receipts vs vacation requests vs benefit claims)
+- "Tell me about the 90-day rule" (probation, HSA claim deadline, expense deadline, data deletion, access revocation, all in different documents)
 
 ## Try it yourself
 
