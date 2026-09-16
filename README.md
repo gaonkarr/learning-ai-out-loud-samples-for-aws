@@ -14,15 +14,16 @@ Each episode delivers the *what and why* for everyone, plus an architecture beat
 
 ## What the series covered so far (ongoing)
 
-| # | Title | Blog |
-|---|-------|------|
-| 1 | What Even Is AI? (I Took a Break & Had to Relearn Everything) | [Read](https://dev.to/aws/what-even-is-ai-i-took-a-break-had-to-relearn-everything-3dpj) |
-| 2 | Why does AI lie? Hallucinations explained simply | [Read](https://dev.to/aws/why-does-ai-lie-hallucinations-explained-simply-1c7g) |
-| 3 | Bigger AI models aren't always better. Here's how to actually choose. | [Read](https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc) |
-| 4 | Why does AI forget what you said (and how to fix it) | [Read](https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-52f6) |
-| 5 | How to make AI answer questions about your documents — building RAG from scratch | [Read](https://dev.to/aws/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch-4dg0) |
-| 6 | Why RAG gives wrong answers (and how to fix retrieval failures) | [Read](https://dev.to/aws/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures-gbj) |
-| 7 | When AI picks up tools: tool calling and MCP explained | Coming soon |
+| Episode | Title | Dev.to | Builder Center | Video |
+|---------|-------|--------|----------------|-------|
+| Series Index | Learning AI Out Loud — Full Series Index | [Read](https://dev.to/aws/learning-ai-out-loud-full-series-index-kf9) | — | — |
+| 1 | What even is AI? I took a break, had to relearn everything | [Read](https://dev.to/aws/what-even-is-ai-i-took-a-break-had-to-relearn-everything-3dpj) | [Read](https://builder.aws.com/content/3DwmczRvQ5ixlgoThRI6x9maFB2/what-even-is-ai-i-took-a-break-and-had-to-relearn-everything) | [Watch](https://www.youtube.com/watch?v=ly3P-NpLni0) |
+| 2 | Why does AI lie? Hallucinations explained simply | [Read](https://dev.to/aws/why-does-ai-lie-hallucinations-explained-simply-1c7g) | [Read](https://builder.aws.com/content/3DlndPKEzyHp05T8T6tZZnl7F5f/why-does-ai-lie-hallucinations-explained-simply) | [Watch](https://www.youtube.com/watch?v=sMb4wmGbeD8) |
+| 3 | Bigger AI models aren't always better. Here's how to actually choose. | [Read](https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc) | [Read](https://builder.aws.com/content/3DMHF89CWvyASiU7CC0WQx1Fd8U/bigger-ai-models-arent-always-better-heres-how-to-actually-choose) | [Watch](https://www.youtube.com/watch?v=fb3d6-HnGMM) |
+| 4 | Why does AI forget what you said, and how to fix it | [Read](https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-4e5g) | [Read](https://builder.aws.com/content/3DwpTl5V8cbiIA13y1fUVXHudYz/why-does-ai-forget-what-you-said-and-how-to-fix-it) | [Watch](https://www.youtube.com/watch?v=ULp_WbgkHzc) |
+| 5 | How to make AI answer questions about your documents — building RAG from scratch | [Read](https://dev.to/aws/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch-4dg0) | [Read](https://builder.aws.com/content/3F0Eiejm567GfStoJzxrBFvm59I/how-to-make-ai-answer-questions-about-your-documents-by-building-rag-from-scratch) | [Watch](https://www.youtube.com/watch?v=l4aA2NLmWBQ) |
+| 6 | Why RAG gives wrong answers (and how to fix retrieval failures) | [Read](https://dev.to/aws/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures-gbj) | [Read](https://builder.aws.com/content/3GeD1cv2is6e1JmHSO0ayHlvoGm/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures) | [Watch](https://www.youtube.com/watch?v=KsICvZxAyxM) |
+| 7 | How AI actually calls an API: tool calling, and how ChatGPT knows today's date | [Read](https://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8) | [Read](https://builder.aws.com/content/3JQXxclnjAEFozjqf5LiLXgafrK/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch) | [Watch](https://www.youtube.com/watch?v=mCnsIHja5cw) |
 
 Every episode demos something working, then shows where it breaks. No fluff, just useful.
 
