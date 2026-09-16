@@ -8,8 +8,9 @@ The headline: when RAG returns a wrong answer, it's usually not a model problem.
 
 This repo is the code companion for Episode 6 of *Learning AI Out Loud*. The video and blog walk through the *why*. This README covers the *how* of running it.
 
-- 🎥 **Video:** Why RAG gives wrong answers (and how to fix it) — [link coming soon]
-- 📝 **Blog:** Why RAG gives wrong answers (and how to fix retrieval failures) — [link coming soon]
+- 🎥 **Video:** [Why RAG gives wrong answers (and how to fix it)](https://www.youtube.com/watch?v=KsICvZxAyxM)
+- 📝 **Blog (dev.to):** [Why RAG gives wrong answers (and how to fix retrieval failures)](https://dev.to/aws/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures-gbj)
+- 📝 **Blog (AWS Builder Center):** [Why RAG gives wrong answers (and how to fix retrieval failures)](https://builder.aws.com/content/3GeD1cv2is6e1JmHSO0ayHlvoGm/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures)
 - 📺 **Series playlist:** [Learning AI Out Loud](https://www.youtube.com/playlist?list=PLTuh5MoXKZTwoeROV-bA4_6maw0FIoeEf)
 - ⬅️ **Start here:** [Episode 5 — building RAG from scratch](../ep05-rag-pipeline/)
 
