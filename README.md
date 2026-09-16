@@ -14,9 +14,8 @@ Each episode delivers the *what and why* for everyone, plus an architecture beat
 
 ## What the series covered so far (ongoing)
 
-| Episode | Title | Dev.to | Builder Center | Video |
-|---------|-------|--------|----------------|-------|
-| Series Index | Learning AI Out Loud — Full Series Index | [Read](https://dev.to/aws/learning-ai-out-loud-full-series-index-kf9) | — | — |
+| Episode | Title | Dev.to | AWS Builder Center | Video |
+|---------|-------|--------|--------------------|-------|
 | 1 | What even is AI? I took a break, had to relearn everything | [Read](https://dev.to/aws/what-even-is-ai-i-took-a-break-had-to-relearn-everything-3dpj) | [Read](https://builder.aws.com/content/3DwmczRvQ5ixlgoThRI6x9maFB2/what-even-is-ai-i-took-a-break-and-had-to-relearn-everything) | [Watch](https://www.youtube.com/watch?v=ly3P-NpLni0) |
 | 2 | Why does AI lie? Hallucinations explained simply | [Read](https://dev.to/aws/why-does-ai-lie-hallucinations-explained-simply-1c7g) | [Read](https://builder.aws.com/content/3DlndPKEzyHp05T8T6tZZnl7F5f/why-does-ai-lie-hallucinations-explained-simply) | [Watch](https://www.youtube.com/watch?v=sMb4wmGbeD8) |
 | 3 | Bigger AI models aren't always better. Here's how to actually choose. | [Read](https://dev.to/aws/bigger-ai-models-arent-always-better-heres-how-to-actually-choose-56pc) | [Read](https://builder.aws.com/content/3DMHF89CWvyASiU7CC0WQx1Fd8U/bigger-ai-models-arent-always-better-heres-how-to-actually-choose) | [Watch](https://www.youtube.com/watch?v=fb3d6-HnGMM) |
