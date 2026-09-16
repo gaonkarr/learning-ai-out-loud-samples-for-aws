@@ -10,8 +10,9 @@ This folder gives it a way out. Two small tools — a live weather lookup and a 
 
 This repo is the code companion for Episode 7 of *Learning AI Out Loud*. The video and blog walk through the *why*. This README covers the *how* of running it.
 
-- 🎥 **Video:** Coming soon
-- 📝 **Blog:** Coming soon
+- 🎥 **Video:** [How AI actually calls an API — tool calling explained from scratch](https://youtu.be/mCnsIHja5cw)
+- 📝 **Blog (dev.to):** [How AI actually calls an API — tool calling explained from scratch](https://dev.to/rohini_gaonkar/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8)
+- 📝 **Blog (AWS Builder Center):** [How AI actually calls an API — tool calling explained from scratch](https://builder.aws.com/content/3JQXxclnjAEFozjqf5LiLXgafrK/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch)
 - 📺 **Series playlist:** [Learning AI Out Loud](https://www.youtube.com/playlist?list=PLTuh5MoXKZTwoeROV-bA4_6maw0FIoeEf)
 - ⬅️ **Previous:** [Episode 6 — why RAG gives wrong answers](../ep06-rag-failures/)
 

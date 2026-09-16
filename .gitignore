@@ -8,3 +8,6 @@ __pycache__/
 .vscode/
 .agents/
 skills-lock.json
+
+# Local-only project, not part of the episode series
+todo-api/
